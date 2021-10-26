@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+/* header start */
+header .header-wrapper{
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 32px;
+    height: 30px;
+}
+.nav-li{
+    color: black;
+    font-size: 16px;
+    margin-right: 35px;
+}
+.nav-li:hover{
+    color: #0072ce;
+}
