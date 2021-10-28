@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PLAYSTATION WEBSITE">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Lado Oniani">
+    <!-- fb meta tags -->
+    <meta property="og:url"                content="https://onianilado.github.io/fp-landingpage/" />
+    <meta property="og:type"               content="NEWS AND SHOP" />
+    <meta property="og:title"              content="PLAYSTATION WEBSITE" />
+    <meta property="og:description"        content="PLAYSTATION LANDING PAGE" />
+    <meta property="og:image"              content="images/ps5-img.jpg" />
     <title>PlayStation</title>
     <script src="https://kit.fontawesome.com/3648c978ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/keyframes.css">
 </head>
 <body>
     <div class="sony flex">
@@ -18,13 +29,13 @@
         <div class="header-wrapper flex">
             <a href="index.html"><img class="header-logo" src="images/logo.png" alt="logo"></a>
             <nav>
-                <ul class="flex">
-                    <a class="nav-li" href="#"><li>Games</li></a>
-                    <a class="nav-li" href="#"><li>Hardware</li></a>
-                    <a class="nav-li" href="#"><li>News</li></a>
-                    <a class="nav-li" href="#"><li>Shop</li></a>
-                    <a class="nav-li" href="#"><li>Services</li></a>
-                    <a class="nav-li" href="#"><li>Contact</li></a>
+                <ul class="nav-ul flex">
+                    <li class="nav-li"><a class="navigation-li" href="#">Games</a></li>
+                    <li class="nav-li"><a class="navigation-li" href="#">Hardware</a></li>
+                    <li class="nav-li"><a class="navigation-li" href="#">News</a></li>
+                    <li class="nav-li"><a class="navigation-li" href="#">Shop</a></li>
+                    <li class="nav-li"><a class="navigation-li" href="#">Services</a></li>
+                    <li class="nav-li"><a class="navigation-li" href="#">Contact</a></li>
                 </ul>
             </nav>
             <span class="burger">
@@ -96,7 +107,7 @@
                 .Hooray!
             </p>
             <div class="video-div flex">
-                <iframe width="960" height="515" src="https://www.youtube.com/embed/Wactdgc5tDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture fullscreen"></iframe>
+                <iframe width="960" height="515" src="https://www.youtube.com/embed/Wactdgc5tDo"></iframe>
             </div>
             <p class="news-text">
                 This time out, we’ll be focusing on announcements and updates for upcoming third-party releases headed to PS5 and PS4.
@@ -142,7 +153,7 @@
                     </div>
                     <br>
                     <div class="textarea-form flex">
-                        <textarea name="add-comment" name="add-comment" id="" cols="30" rows="10"></textarea>
+                        <textarea name="add-comment" id="add-comment" cols="30" rows="10"></textarea>
                     </div>
                     <br>
                     <div>
@@ -153,6 +164,31 @@
             <br>
         </div>
     </section>
-    <footer></footer>
+    <footer>
+        <div class="footer-container flex">
+            <div>
+                <img class="footer-logo" src="images/logo.png" alt="playstation-logo">
+            </div>
+            <h2 class="footer-title">PLAYSTATION ON SOCIAL MEDIA</h2>
+            <ul class="icon-block flex">
+                <li class="icon-li">
+                    <a href="https://www.twitch.tv/playstation" target="_blank">
+                        <i class="fab fa-twitch"></i>
+                    </a>
+                </li>
+                <li class="icon-li">
+                    <a href="https://www.facebook.com/playstation/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="icon-li">
+                    <a href="https://www.youtube.com/channel/UC-2Y8dQb0S6DtpxNgAKoJKA" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer-text">Copyright &COPY; 2020. All rights reserved. Do not duplicate or redistribute in any form</p>
+    </footer>
 </body>
 </html>
